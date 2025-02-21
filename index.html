@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="icon" href="./assets/favico/default.ico">
+</head>
+<body>
+    <div id="terminal">
+        <div id="terminal-header">
+            <div id="terminal-buttons">
+                <div class="terminal-button" id="close-button"></div>
+                <div class="terminal-button" id="minimize-button"></div>
+                <div class="terminal-button" id="maximize-button"></div>
+            </div>
+        </div>
+        <div id="terminal-content">
+            <p id="terminal-text"></p>
+        </div>
+    </div>
+
+    <div id="video-background">
+        <video id="myVideo" autoplay muted loop>
+            <source src="./assets/back/default.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <audio id="myAudio" autoplay loop>
+        <source src="./assets/music/default.mp3" type="audio/mpeg">
+    </audio>
+
+    <div id="blurred-box">
+        <img id="profile-picture" src="" alt="Profile Picture">
+        <img id="avatar-frame" src="" alt="Avatar Frame">
+        <p id="username">koharux.f</p>
+        <div class="user-description">
+            <p id="user-description">❤️</p>
+        </div>
+        <div class="links">
+            <a href="https://github.com/Koharux" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+        </div>
+    </div>
+
+    <script src="./assets/js/script.js"></script>
+    <script src="./assets/js/title.js"></script>
+    <script src="./assets/js/discord.js"></script>
+</body>
+</html>
