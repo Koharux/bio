@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', async () => {
-    const userId = "1356144802772815973";
+    const userId = "1341705682159927296";
     const apiUrl = `https://discord-lookup-api-alpha.vercel.app/v1/user/${userId}`;
     const profilePicture = document.getElementById('profile-picture');
     const avatarFrame = document.getElementById('avatar-frame');
